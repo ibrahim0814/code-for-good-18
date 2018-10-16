@@ -9,13 +9,10 @@ import { HomePage } from "../pages/home/home";
 import { LoginPage } from "../pages/login/login";
 import { LocalWeatherPage } from "../pages/local-weather/local-weather";
 import { ProfilePage } from "../pages/profile/profile";
-<<<<<<< HEAD
 import { EditProfilePage } from "../pages/edit-profile/edit-profile";
-=======
 import {TrainingPage} from '../pages/training/training';
 import {ErgPage} from '../pages/erg/erg';
 import {ErgprofilePage} from '../pages/ergprofile/ergprofile';
->>>>>>> dev
 
 export interface MenuItem {
     title: string;
@@ -30,11 +27,7 @@ export interface MenuItem {
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-<<<<<<< HEAD
-  rootPage: any = EditProfilePage;
-=======
   rootPage: any = LoginPage;
->>>>>>> dev
 
   appMenuItems: Array<MenuItem>;
 
